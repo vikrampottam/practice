@@ -211,28 +211,5 @@ class Board {
 		this.players[1] = player2;
 	}
 
-	public void DisplayUI() {
-	}
-
-	public void DisplayPlayers() {
-	}
-
-	public int[] DisplayMoves() {
-		return null;
-	}
-
-	public void SetMoves(int turn) {
-	}
-
-	public boolean logic() {
-		// SetMove(int turn);
-		// Winner case - Vertical of 3 spaces
-		// Winner case - Horizontal of 3 Spaces
-		// Winner case - Diagontal of 3 Spaces
-		// Losing - If all spaces are used up
-		return false;
-	}
-
-	private void UpdateScoreBoard() {
-	}
+	
 }
